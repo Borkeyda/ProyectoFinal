@@ -1,0 +1,10 @@
+.cont-total-und{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%; height: 50%;
+}

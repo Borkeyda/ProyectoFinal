@@ -4,4 +4,5 @@
 
 .body-video video{
     width: 100%;
+    box-shadow: 0 0 7px 7px rgb(255, 253, 118);
 }

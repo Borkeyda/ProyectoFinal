@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.cards-art{
+    display: flex;
+    width: 300px; height: 460px;
+    margin: 5%; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cards-art:hover{
+    animation: ani 2s infinite;
+}
+
+@keyframes ani{
+    0%{transform: scale(1.1);}
+    50%{transform: scale(1.1);}
+    100%{transform: scale(1.1);}
+}
+
+.cards-art span{
+    display: flex;
+}
+
+.imagenes-art{
+    width: 90%;
+    margin: -5% 5%;
+}
+
+.imagenes-art img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.informacion-art{
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 2% 0;
+    padding: 0 5px;
+}

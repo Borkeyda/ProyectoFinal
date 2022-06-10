@@ -1,0 +1,11 @@
+.cont-direc{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 5%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%; height: 50%;
+}
