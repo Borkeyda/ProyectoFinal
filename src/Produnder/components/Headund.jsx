@@ -1,17 +1,17 @@
 import React from 'react'
-import "../styles/Headnik.css"
+import "../styles/Headund.css"
 
-function Headnik() {
+function Headund() {
     return (
-        <header className='head-nike'>
+        <header className='head-under'>
             <ul>
                 <li>Home</li>
                 <li>Adidas</li>
                 <li>Puma</li>
-                <li>Under A</li>
+                <li>Nike</li>
             </ul>
         </header>
     )
 }
 
-export {Headnik}
+export {Headund}
